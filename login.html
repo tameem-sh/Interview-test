@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="./index.html" class="login-form">
+            <div class="error"></div>
+            <div class="input">
+                <label for="number">Phone number or username</label>
+                <div class="input-field">
+                    <span><i class="fa-regular fa-user"></i></span>
+                    <input type="text" name="number" id="number" placeholder="Phone number or username" required>
+                </div>
+                <label for="password">Password</label>
+                <div class="input-field">
+                    <span><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                    <span id="view"><i class="fa-regular fa-eye"></i></span>
+                </div>
+                <div class="forget">
+                    <a href="#">Forgot your password?</a>
+                </div>
+            </div>
+            <input id="loginbtn" type="submit" value="sign in" class="btn">
+            <div class="Register text-center">
+                Don’t have account. <br><a href="#" rel="noopener noreferrer">Register now</a>
+            </div>
+        </form>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
