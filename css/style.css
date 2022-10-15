@@ -22,9 +22,9 @@
 }
 
 body {
-        height: 100vh;
-        display: flex;
-        align-items: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 /* Login page */
@@ -266,9 +266,6 @@ body {
 }
 
 @media screen and (max-width: 775px) {
-    body {
-        height: max-content;
-    }
     .user-info {
         display: flex;
         flex-direction: column;
